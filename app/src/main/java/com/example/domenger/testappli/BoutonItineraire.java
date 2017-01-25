@@ -60,13 +60,13 @@ public class BoutonItineraire extends Activity {
 
         createEmploiDuTemps();
         String resultat = findClasse();
-
-
         txtresult.setText(resultat);
-        String info  = localisation(resultat, "La salle de cours ");
-        txtinfo.setText(info);
 
-        String info2  = localisation(tici, "La salle devant laquelle vous êtes, ");
+        if (resultat != "not found") {
+            String info = localisation(resultat, "La salle de cours ");
+            txtinfo.setText(info);
+        }
+        String info2 = localisation(tici, "La salle devant laquelle vous êtes, ");
         txtinfo2.setText(info2);
 
     }
@@ -113,15 +113,15 @@ public class BoutonItineraire extends Activity {
     public void createEmploiDuTemps() {
 
         Horaire h1 = new Horaire();
-        h1.hour = "8.10";
+        h1.hour = "8h10";
         h1.classe = "106";
 
         Horaire h2 = new Horaire();
-        h2.hour = "9.05";
+        h2.hour = "9h05";
         h2.classe = "134";
 
         Horaire h3 = new Horaire();
-        h3.hour = "13.55";
+        h3.hour = "13h55";
         h3.classe = "000"; //on ne connait pas la salle
 
 
@@ -133,19 +133,19 @@ public class BoutonItineraire extends Activity {
         monday.horaires.add(h3);
 
         Horaire h11 = new Horaire();
-        h11.hour = "10.10";
+        h11.hour = "10h10";
         h11.classe = "182";
 
         Horaire h21 = new Horaire();
-        h21.hour = "11.05";
+        h21.hour = "11h05";
         h21.classe = "182";
 
         Horaire h31 = new Horaire();
-        h31.hour = "13.55";
+        h31.hour = "13h55";
         h31.classe = "156";
 
         Horaire h41 = new Horaire();
-        h41.hour = "14.5";
+        h41.hour = "14h5";
         h41.classe = "160";
 
         Jour thuesday = new Jour();
@@ -180,7 +180,7 @@ public class BoutonItineraire extends Activity {
                 }
             }
         }
-        return "not find";
+        return "not found";
     }
 }
 
