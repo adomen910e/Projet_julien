@@ -20,6 +20,7 @@
         <activity android:name=".Scanner"/>
         <activity android:name=".PlanDuLycee"/>
         <activity android:name=".DescriptionSalle"/>
+        <activity android:name=".VuDesBatiments"/>
 
 
     </application>

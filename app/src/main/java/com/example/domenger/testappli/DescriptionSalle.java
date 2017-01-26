@@ -3,6 +3,9 @@ package com.example.domenger.testappli;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -42,7 +45,6 @@ public class DescriptionSalle extends Activity {
         TextView txtinfo2 = (TextView) findViewById(R.id.textView2);
         TextView txt3 = (TextView) findViewById(R.id.textView3);
         TextView txt4 = (TextView) findViewById(R.id.textView4);
-        
 
         Intent iin = getIntent();
         Bundle b = iin.getExtras();
@@ -63,19 +65,34 @@ public class DescriptionSalle extends Activity {
         txtresult.setText(resultat);
 
         if (resultat != "not found") {
-            String info = localisation(resultat, "La salle de cours ");
+            int res = Integer.parseInt(resultat);
+            String info = localisation(res, "La salle de cours ");
             txtinfo.setText(info);
         }
         if (tici != "Vous n'avez pas lancer le scanner précédement") {
-            String info2 = localisation(tici, "La salle devant laquelle vous êtes, ");
+            int int_ici = Integer.parseInt(tici);
+            String info2 = localisation(int_ici, "La salle devant laquelle vous êtes, ");
             txtinfo2.setText(info2);
         }
 
+
+        Button bat = (Button) findViewById(R.id.vuBat);
+
+        bat.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+
+                Intent intent = new Intent(DescriptionSalle.this, VuDesBatiments.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
-    public String localisation(String salle, String deb){
+    public String localisation(int salle, String deb){
         String infos;
-        int salleInt = Integer.parseInt(salle);
+        //int salleInt = Integer.parseInt(salle);
+        int salleInt = salle;
         System.out.println(salleInt);
         if (salleInt > 100) {
             infos = deb + "se trouve au premier étage,";

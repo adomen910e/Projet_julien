@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="214fccf7c73ac742fd7f5a198bb3677f236d1bf3">
+        sha1="46f8b74c2faa77d22d702146d00608e3fbe71d4c">
         <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ae2be1005caf0f52d3e4c9305b97a9a2b8dc33c3/classes.dex" />
     </item>
     <item
@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="1ad6f7a8d130a6dc80f14ba93e7d50ec92ab6a39">
+        sha1="b6ebcdd79c7ad83e1a14c0c04a62f693755d1e71">
         <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d155337b959a87d1258fed9da838ff5e49083725/classes.dex" />
     </item>
     <item
