@@ -121,5 +121,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="normal|italic" />
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp">
+
+    </FrameLayout>
+
 
 </LinearLayout>
