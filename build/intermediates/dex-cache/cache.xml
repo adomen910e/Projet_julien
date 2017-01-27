@@ -304,7 +304,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="16bb3c0676ecf01f7f006413d440e10b1a9543da">
+        sha1="8e16f7703fb0783e8577f0af712072c717c7a19a">
         <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d5a0063cab3d1c51769aa00dc59c31da718cbed2/classes.dex" />
     </item>
     <item
@@ -322,7 +322,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="f6d5fe488fd097f595c8453892236d13ae64c771">
+        sha1="1ac8d6564793004e1eecaa8186d1f9ddf7135fec">
         <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0cbe3d5a19ce9141afea711d4513888345491d6b/classes.dex" />
     </item>
     <item

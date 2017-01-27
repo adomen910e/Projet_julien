@@ -81,7 +81,7 @@
                 android:layout_weight="1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textStyle="normal|bold"
-                android:textColor="@color/zxing_viewfinder_laser" />
+                android:textColor="@color/zxing_custom_viewfinder_laser" />
         </LinearLayout>
     </FrameLayout>
 

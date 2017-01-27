@@ -19,6 +19,7 @@ import com.google.zxing.integration.android.IntentResult;
 public class Scanner extends AppCompatActivity implements View.OnClickListener {
 
     private Bundle donnee;
+    private String scanner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,8 @@ public class Scanner extends AppCompatActivity implements View.OnClickListener {
         Button mybutton = (Button) findViewById(R.id.scan_button);
         mybutton.setOnClickListener(this);
 
+        scanner = "Vous n'avez pas lancer le scanner précédement";
+
 
         Button buttonChemin = (Button) findViewById(R.id.chemin);
         buttonChemin.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +44,6 @@ public class Scanner extends AppCompatActivity implements View.OnClickListener {
                 String txtClasse =(String) donnee.get("classe");
                 String txtHeure =(String) donnee.get("heure");
                 String txtJour =(String) donnee.get("jour");
-                String scanner = "Vous n'avez pas lancer le scanner précédement";
                 intent.putExtra("classe", txtClasse);
                 intent.putExtra("heure", txtHeure);
                 intent.putExtra("jour", txtJour);
@@ -89,25 +91,7 @@ public class Scanner extends AppCompatActivity implements View.OnClickListener {
             scan_format.setText("           FORMAT:  " + scanFormat);
             scan_content.setText("          CONTENU:  Vous vous trouvez devant la salle " + scanContent);
 
-            Button buttonChemin = (Button) findViewById(R.id.chemin);
-            buttonChemin.setOnClickListener(new View.OnClickListener() {
-
-                public void onClick(View v) {
-                    Intent intent = new Intent(Scanner.this, DescriptionSalle.class);
-
-                    String txtClasse =(String) donnee.get("classe");
-                    String txtHeure =(String) donnee.get("heure");
-                    String txtJour =(String) donnee.get("jour");
-                    intent.putExtra("classe", txtClasse);
-                    intent.putExtra("heure", txtHeure);
-                    intent.putExtra("jour", txtJour);
-                    intent.putExtra("ici", scanContent);
-
-                    startActivity(intent);
-                }
-            });
-
-
+            scanner = scanContent;
         } else {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "Aucune donnée reçu!", Toast.LENGTH_SHORT);

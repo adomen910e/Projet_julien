@@ -67,4 +67,14 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scan_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:id="@+id/appit"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
 </RelativeLayout>

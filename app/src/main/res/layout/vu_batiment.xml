@@ -32,6 +32,30 @@
             app:srcCompat="@drawable/rdchg"
             android:id="@+id/rdcHG" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/etbd"
+            android:id="@+id/etbd" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/etbg"
+            android:id="@+id/etbg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ethd"
+            android:id="@+id/ethd" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ethg"
+            android:id="@+id/ethg" />
+
     </FrameLayout>
 
     <LinearLayout
@@ -97,6 +121,30 @@
             android:layout_height="243dp"
             app:srcCompat="@drawable/bleuhg"
             android:id="@+id/imageView10" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/etbleubd"
+            android:id="@+id/etbleubd" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/etbleubg"
+            android:id="@+id/etbleubg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/etbleuhd"
+            android:id="@+id/etbleuhd" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/etbleuhg"
+            android:id="@+id/etbleuhg" />
 
     </FrameLayout>
 </LinearLayout>

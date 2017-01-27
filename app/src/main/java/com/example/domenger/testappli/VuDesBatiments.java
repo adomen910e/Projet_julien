@@ -48,6 +48,24 @@ public class VuDesBatiments extends Activity {
                     image.setImageResource(R.drawable.rdchd);
                 }
             }
+        }else{
+            if (ici.charAt(1) == 'B'){
+                if (ici.charAt(2) == 'G'){
+                    ImageView image = (ImageView) findViewById(R.id.etbg);
+                    image.setImageResource(R.drawable.etbg);
+                }else{
+                    ImageView image = (ImageView) findViewById(R.id.etbd);
+                    image.setImageResource(R.drawable.etbd);
+                }
+            }else{
+                if (ici.charAt(2) == 'G'){
+                    ImageView image = (ImageView) findViewById(R.id.ethg);
+                    image.setImageResource(R.drawable.ethg);
+                }else{
+                    ImageView image = (ImageView) findViewById(R.id.ethd);
+                    image.setImageResource(R.drawable.ethd);
+                }
+            }
         }
 
         if (labas.charAt(0) == 'R' ) {
@@ -66,6 +84,24 @@ public class VuDesBatiments extends Activity {
                 }else{
                     ImageView image = (ImageView) findViewById(R.id.imageView9);
                     image.setImageResource(R.drawable.bleuhd);
+                }
+            }
+        }else{
+            if (ici.charAt(1) == 'B'){
+                if (ici.charAt(2) == 'G'){
+                    ImageView image = (ImageView) findViewById(R.id.etbleubg);
+                    image.setImageResource(R.drawable.etbleubg);
+                }else{
+                    ImageView image = (ImageView) findViewById(R.id.etbleubd);
+                    image.setImageResource(R.drawable.etbleubd);
+                }
+            }else{
+                if (ici.charAt(2) == 'G'){
+                    ImageView image = (ImageView) findViewById(R.id.etbleuhg);
+                    image.setImageResource(R.drawable.etbleuhg);
+                }else{
+                    ImageView image = (ImageView) findViewById(R.id.etbleuhd);
+                    image.setImageResource(R.drawable.etbleuhd);
                 }
             }
         }

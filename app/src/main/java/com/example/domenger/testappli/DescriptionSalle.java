@@ -72,11 +72,17 @@ public class DescriptionSalle extends Activity {
             aileLaBas = "1";
             String info = localisation(res, "La salle de cours ");
             txtinfo.setText(info);
+        }else{
+            txtinfo.setText("La salle de cours n'a pas été trouvé, cela vient peu etre du fait que vous n'ayez pas cours a l'horaire rentré.");
         }
-        if (tici != "Vous n'avez pas lancer le scanner précédement") {
+
+
+        if (tici.charAt(0) != 'V') {
             int int_ici = Integer.parseInt(tici);
             String info2 = localisation(int_ici, "La salle devant laquelle vous êtes, ");
             txtinfo2.setText(info2);
+        }else{
+            txtinfo2.setText("Vous n'avez pas lancer le scanner précédement");
         }
 
 
@@ -153,7 +159,7 @@ public class DescriptionSalle extends Activity {
 
         Horaire h1 = new Horaire();
         h1.hour = "8h10";
-        h1.classe = "80";
+        h1.classe = "101";
 
         Horaire h2 = new Horaire();
         h2.hour = "9h05";
