@@ -19,6 +19,9 @@ public class DescriptionSalle extends Activity {
     private String theure;
     private String tici;
 
+    private String aileIci = "0";
+    private String aileLaBas = "0";
+
     private Jour monday;
     private ArrayList emploiDuTemps;
 
@@ -66,6 +69,7 @@ public class DescriptionSalle extends Activity {
 
         if (resultat != "not found") {
             int res = Integer.parseInt(resultat);
+            aileLaBas = "1";
             String info = localisation(res, "La salle de cours ");
             txtinfo.setText(info);
         }
@@ -81,12 +85,20 @@ public class DescriptionSalle extends Activity {
         bat.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-
                 Intent intent = new Intent(DescriptionSalle.this, VuDesBatiments.class);
+                intent.putExtra("ici", aileIci);
+                intent.putExtra("labas", aileLaBas);
                 startActivity(intent);
             }
         });
 
+    }
+
+    public void trouverAile(String b){
+        if (aileLaBas == "1")
+            aileLaBas = b;
+        else
+            aileIci = b;
     }
 
     public String localisation(int salle, String deb){
@@ -98,14 +110,18 @@ public class DescriptionSalle extends Activity {
             infos = deb + "se trouve au premier étage,";
             if (salleInt<120){
                 infos = infos + " dans l'aile en bas a gauche (sur le plan_rdc)";
+                trouverAile("EBG");
             }else{
                 if (salleInt<150) {
                     infos = infos + " dans l'aile en haut a gauche (sur le plan_rdc)";
+                    trouverAile("EHG");
                 }else{
                     if (salleInt<170) {
                         infos = infos + " dans l'aile en haut a droite (sur le plan_rdc)";
+                        trouverAile("EHD");
                     }else{
                         infos = infos + " dans l'aile en bas a droite (sur le plan_rdc)";
+                        trouverAile("EBD");
                     }
                 }
             }
@@ -113,14 +129,18 @@ public class DescriptionSalle extends Activity {
             infos = deb + "se trouve au rez de chaussée";
             if (salleInt<20){
                 infos = infos + " dans l'aile en bas a gauche (sur le plan_rdc)";
+                trouverAile("RBG");
             }else{
                 if (salleInt<40) {
                     infos = infos + " dans l'aile en haut a gauche (sur le plan_rdc)";
+                    trouverAile("RHG");
                 }else{
                     if (salleInt<70) {
                         infos = infos + " dans l'aile en haut a droite (sur le plan_rdc)";
+                        trouverAile("RHD");
                     }else{
                         infos = infos + " dans l'aile en bas a droite (sur le plan_rdc)";
+                        trouverAile("RBD");
                     }
                 }
             }
@@ -133,7 +153,7 @@ public class DescriptionSalle extends Activity {
 
         Horaire h1 = new Horaire();
         h1.hour = "8h10";
-        h1.classe = "106";
+        h1.classe = "80";
 
         Horaire h2 = new Horaire();
         h2.hour = "9h05";

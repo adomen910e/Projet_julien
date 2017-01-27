@@ -21,39 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_d19bdd2ddb17c9dda43a2b7426aa03e4fab24b49/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/domenger/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.0_b5aff42858fc4cef7293c74d994a7a33fb4b5130/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/domenger/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_c23dd46abf4c5a060609745c221bfd1784596fd4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_715227aab14e9daf4ef2d17bbc1bc6f333535c35/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,15 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_7561bff3b63b4ba6abbb8f5e9b853861c3c6369e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -93,12 +57,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="0a9cb567dc008f570c28531720168f19148da965">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta4_9b2f202722763de295ac69db259fd823bf42fcbe/classes.dex" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_38425e090fea54b532b7afa5211f6f8a93c52dbe/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,12 +84,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_c9e900f91a6b0ed5f5dfba313ed15150b97221a2/classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b22d1eee98113266252b38ca7c601c4fec994c2e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_52e094de31eca4be3e0da6eb924c5d74081c0bab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -156,12 +129,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta4_d6267f26b9030c6fd43118cd56654b247e421f45/classes.dex" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_20daf0a6f7de2be952e32354d303f7fc8855faa0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a1be56018f95d7d124b6637e49a97519522104aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_bac1e3c978b09b72ccdadf7836b94dde2d42922e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,21 +165,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2ca4bcd3e09df96a5e17b3b5d670712b8c352dc5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
         <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.journeyapps-zxing-android-embedded-3.0.2_cea07c8632ef41677cbff2a597b5c71f4e6a0fea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_e1292a5a0bcf79e36e27b98ca8588ca6a984c09b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,6 +201,213 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ac2341efc6a5f6d9b8e3090731cd9caa816cce34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f29b9c3715349b0308222ae94bc79d25421b9449/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_d19bdd2ddb17c9dda43a2b7426aa03e4fab24b49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c846511cc6cf57b3192a7b6d9aef0584b076c47b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.0_b5aff42858fc4cef7293c74d994a7a33fb4b5130/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f50c282bdf4f14115e76e60ae235c86e2249b58e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_46e82e8147234c8c5ea3b95e0b7be6eaa7724f51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_715227aab14e9daf4ef2d17bbc1bc6f333535c35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_b64d264ffb1c2882de83e335bb25e3b1829cd2c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_7561bff3b63b4ba6abbb8f5e9b853861c3c6369e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta4_9b2f202722763de295ac69db259fd823bf42fcbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="16bb3c0676ecf01f7f006413d440e10b1a9543da">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d5a0063cab3d1c51769aa00dc59c31da718cbed2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_c9e900f91a6b0ed5f5dfba313ed15150b97221a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f6d5fe488fd097f595c8453892236d13ae64c771">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0cbe3d5a19ce9141afea711d4513888345491d6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_4989343dd0b201ec52b3d94edf5561c8585c6d2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_003882e4e072cd78cfe13051cc833b51d8f7119c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8eded78a6a9231cc8e2e2b8c2eac1ea2530c5a38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.journeyapps-zxing-android-embedded-3.0.2_56e03ef231e52dcdde411da5b267b1c9c9538a19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta4_d6267f26b9030c6fd43118cd56654b247e421f45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta4_4ea18620f7f89e35bf2b8e817c971b099458a382/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2ca4bcd3e09df96a5e17b3b5d670712b8c352dc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_1d71dbc8a7740af01eb4288a74ff5a601a89885c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_cccf25a93ccf374538a9d9a8809a1ef753ea2b58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -219,12 +417,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/domenger/Desktop/TestAppli/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/domenger/Desktop/TestAppli/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ac2341efc6a5f6d9b8e3090731cd9caa816cce34/classes.dex" />
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/domenger/Desktop/Projet_julien/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_063e1b2e5bb9ed1bdd49b8d79e1cb8e4199e1411/classes.dex" />
     </item>
 
 </items>
