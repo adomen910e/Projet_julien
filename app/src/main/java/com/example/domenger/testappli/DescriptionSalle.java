@@ -46,8 +46,6 @@ public class DescriptionSalle extends Activity {
         TextView txtresult = (TextView) findViewById(R.id.result);
         TextView txtinfo = (TextView) findViewById(R.id.information);
         TextView txtinfo2 = (TextView) findViewById(R.id.textView2);
-        TextView txt3 = (TextView) findViewById(R.id.textView3);
-        TextView txt4 = (TextView) findViewById(R.id.textView4);
 
         Intent iin = getIntent();
         Bundle b = iin.getExtras();
@@ -68,10 +66,14 @@ public class DescriptionSalle extends Activity {
         txtresult.setText(resultat);
 
         if (resultat != "not found") {
-            int res = Integer.parseInt(resultat);
-            aileLaBas = "1";
-            String info = localisation(res, "La salle de cours ");
-            txtinfo.setText(info);
+            if(resultat != "aleatoire") {
+                int res = Integer.parseInt(resultat);
+                aileLaBas = "1";
+                String info = localisation(res, "La salle de cours ");
+                txtinfo.setText(info);
+            }else{
+                txtinfo.setText("La salle de votre prochain cours change aléatoirement, veuillez regarder sur le tableau pour la connaitre.");
+            }
         }else{
             txtinfo.setText("La salle de cours n'a pas été trouvé, cela vient peu etre du fait que vous n'ayez pas cours a l'horaire rentré.");
         }
@@ -159,7 +161,7 @@ public class DescriptionSalle extends Activity {
 
         Horaire h1 = new Horaire();
         h1.hour = "8h10";
-        h1.classe = "101";
+        h1.classe = "aleatoire";
 
         Horaire h2 = new Horaire();
         h2.hour = "9h05";

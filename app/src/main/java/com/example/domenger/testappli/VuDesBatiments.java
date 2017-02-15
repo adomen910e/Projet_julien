@@ -30,6 +30,14 @@ public class VuDesBatiments extends Activity {
             labas = (String) b.get("labas");
         }
 
+        if (ici.charAt(0) != '0')
+            afficher_ici();
+
+        if (labas.charAt(0) != '0')
+            afficher_labas();
+    }
+
+    public void afficher_ici(){
         if (ici.charAt(0) == 'R' ) {
             if (ici.charAt(1) == 'B'){
                 if (ici.charAt(2) == 'G'){
@@ -67,7 +75,9 @@ public class VuDesBatiments extends Activity {
                 }
             }
         }
+    }
 
+    public void afficher_labas(){
         if (labas.charAt(0) == 'R' ) {
             if (labas.charAt(1) == 'B'){
                 if (labas.charAt(2) == 'G'){
@@ -87,8 +97,8 @@ public class VuDesBatiments extends Activity {
                 }
             }
         }else{
-            if (ici.charAt(1) == 'B'){
-                if (ici.charAt(2) == 'G'){
+            if (labas.charAt(1) == 'B'){
+                if (labas.charAt(2) == 'G'){
                     ImageView image = (ImageView) findViewById(R.id.etbleubg);
                     image.setImageResource(R.drawable.etbleubg);
                 }else{
@@ -96,7 +106,7 @@ public class VuDesBatiments extends Activity {
                     image.setImageResource(R.drawable.etbleubd);
                 }
             }else{
-                if (ici.charAt(2) == 'G'){
+                if (labas.charAt(2) == 'G'){
                     ImageView image = (ImageView) findViewById(R.id.etbleuhg);
                     image.setImageResource(R.drawable.etbleuhg);
                 }else{
@@ -105,7 +115,5 @@ public class VuDesBatiments extends Activity {
                 }
             }
         }
-
     }
-
 }
