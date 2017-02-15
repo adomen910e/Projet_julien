@@ -67,7 +67,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Votre prochain cours est dans la salle: "
+                android:text="   Votre prochain cours est dans la salle: "
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:id="@+id/phrase"
@@ -86,7 +86,7 @@
     </FrameLayout>
 
     <TextView
-        android:text="Description sur la salle de cours:"
+        android:text="   Description sur la salle de cours:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
@@ -104,7 +104,7 @@
         android:textStyle="normal|italic" />
 
     <TextView
-        android:text="Description sur la salle devant vous:"
+        android:text="   Description sur la salle devant vous:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
