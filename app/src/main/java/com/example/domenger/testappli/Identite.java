@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class Identite extends Activity{
     EditText classe, heure, jour;
@@ -20,6 +21,10 @@ public class Identite extends Activity{
         classe = (EditText)findViewById(R.id.txtclasse);
         heure = (EditText)findViewById(R.id.txthoraire);
         jour = (EditText)findViewById(R.id.txtjour);
+
+        ImageView image = (ImageView) findViewById(R.id.imageView3);
+        image.setImageResource(R.drawable.tpe);
+
 
         continuer = (Button) findViewById(R.id.btnCancel);
 
