@@ -161,16 +161,23 @@ public class DescriptionSalle extends Activity {
 
         Horaire h1 = new Horaire();
         h1.hour = "8h10";
-        h1.classe = "aleatoire";
+        h1.classe = "106";
 
         Horaire h2 = new Horaire();
         h2.hour = "9h05";
         h2.classe = "134";
 
         Horaire h3 = new Horaire();
-        h3.hour = "13h55";
+        h3.hour = "10h15";
         h3.classe = "000"; //on ne connait pas la salle
 
+        Horaire h4 = new Horaire();
+        h4.hour = "11h05";
+        h4.classe = "000"; //on ne connait pas la salle
+
+        Horaire h5 = new Horaire();
+        h5.hour = "13h55";
+        h5.classe = "006";
 
         monday = new Jour();
         monday.jour = "lundi";
@@ -178,9 +185,11 @@ public class DescriptionSalle extends Activity {
         monday.horaires.add(h1);
         monday.horaires.add(h2);
         monday.horaires.add(h3);
+        monday.horaires.add(h4);
+        monday.horaires.add(h5);
 
         Horaire h11 = new Horaire();
-        h11.hour = "10h10";
+        h11.hour = "10h15";
         h11.classe = "182";
 
         Horaire h21 = new Horaire();
@@ -192,7 +201,7 @@ public class DescriptionSalle extends Activity {
         h31.classe = "156";
 
         Horaire h41 = new Horaire();
-        h41.hour = "14h5";
+        h41.hour = "14h50";
         h41.classe = "160";
 
         Jour thuesday = new Jour();
@@ -203,11 +212,109 @@ public class DescriptionSalle extends Activity {
         thuesday.horaires.add(h31);
         thuesday.horaires.add(h41);
 
+/*Horaire h12 = new Horaire();
+      h12.hour = "8h10";
+      h12.classe = "101";*/
+
+        Horaire h22 = new Horaire();
+        h22.hour = "10h15";
+        h22.classe = "59";
+
+        Horaire h32 = new Horaire();
+        h32.hour = "11h05";
+        h32.classe = "136";
+
+
+        Jour wednesday = new Jour();
+        wednesday.jour = "mercredi";
+        wednesday.horaires = new ArrayList();
+        //wednesday.horaires.add(h12);
+        wednesday.horaires.add(h22);
+        wednesday.horaires.add(h32);
+
+        Horaire h13 = new Horaire();
+        h13.hour = "8h10";
+        h13.classe = "134";
+
+        Horaire h23 = new Horaire();
+        h23.hour = "9h05";
+        h23.classe = "76";
+
+        Horaire h33 = new Horaire();
+        h33.hour = "10h15";
+        h33.classe = "107";
+
+        Horaire h43 = new Horaire();
+        h43.hour = "11h05";
+        h43.classe = "107";
+
+        Horaire h53 = new Horaire();
+        h53.hour = "12h55";
+        h53.classe = "156";
+
+        Horaire h63 = new Horaire();
+        h63.hour = "13h55";
+        h63.classe = "134";
+
+        Horaire h73 = new Horaire();
+        h73.hour = "14h50";
+        h73.classe = "182";
+
+        Horaire h83 = new Horaire();
+        h83.hour = "16h00";
+        h83.classe = "107";
+
+        Horaire h93 = new Horaire();
+        h73.hour = "16h50";
+        h73.classe = "182";
+
+        Jour thur = new Jour();
+        thur.jour = "jeudi";
+        thur.horaires = new ArrayList();
+        thur.horaires.add(h13);
+        thur.horaires.add(h23);
+        thur.horaires.add(h33);
+        thur.horaires.add(h43);
+        thur.horaires.add(h53);
+        thur.horaires.add(h63);
+        thur.horaires.add(h73);
+        thur.horaires.add(h83);
+        thur.horaires.add(h93);
+
+
+        Horaire h14 = new Horaire();
+        h14.hour = "8h10";
+        h14.classe = "182";
+
+        Horaire h24 = new Horaire();
+        h24.hour = "10h25";
+        h24.classe = "aleatoire";
+
+        Horaire h34 = new Horaire();
+        h34.hour = "12h00";
+        h34.classe = "176";
+
+        Horaire h44 = new Horaire();
+        h44.hour = "13h55";
+        h44.classe = "2";
+
+
+        Jour friday = new Jour();
+        friday.jour = "vendredi";
+        friday.horaires = new ArrayList();
+        friday.horaires.add(h14);
+        friday.horaires.add(h24);
+        friday.horaires.add(h34);
+        friday.horaires.add(h44);
+
 
 
         emploiDuTemps = new ArrayList();
         emploiDuTemps.add(monday);
         emploiDuTemps.add(thuesday);
+        emploiDuTemps.add(wednesday);
+        emploiDuTemps.add(thur);
+        emploiDuTemps.add(friday);
 
 
     }
